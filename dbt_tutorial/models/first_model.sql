@@ -1,1 +1,0 @@
-SELECT * FROM nyc_parking_violation_codes
