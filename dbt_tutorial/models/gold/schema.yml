@@ -1,0 +1,18 @@
+models:
+  - name: gold_ticket_metrics
+    description: "Aggregated metrics representing the total tickets and revenue by violation code."
+    columns:
+      - name: violation_code
+        description: '{{ doc("violation_code") }}'
+      - name: ticket_count
+        description: '{{ doc("ticket_count") }}'
+      - name: total_revenue_usd
+        description: '{{ doc("total_revenue_usd") }}'
+
+  - name: gold_vehicles_metrics
+    description: "Aggregated metrics detailing the number of tickets per vehicle, identified by the plate ID."
+    columns:
+      - name: registration_state
+        description: '{{ doc("registration_state") }}'
+      - name: ticket_count
+        description: '{{ doc("ticket_count") }}'
