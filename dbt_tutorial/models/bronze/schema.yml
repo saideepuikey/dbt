@@ -58,3 +58,16 @@ models:
         description: '{{ doc("vehicle_color") }}'
       - name: vehicle_year
         description: '{{ doc("vehicle_year") }}'
+
+  - name: bronze_employee
+    description: Stores employee information
+    columns:
+      - name: id
+        description: Stores employee information
+        tests:
+          - unique
+          - not_null
+      - name: emp_name
+        description: Stores employee name
+      - name: age
+        description: Age of employee

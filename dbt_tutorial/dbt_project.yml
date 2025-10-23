@@ -35,7 +35,7 @@ models:
     example:
       +materialized: ephemeral
     bronze:
-      +materialized: view
+      +materialized: table
     silver:
       silver_parking_violation_codes:
         +materialized: ephemeral
@@ -45,6 +45,8 @@ models:
         +materialized: view
       silver_violation_vehicles:
         +materialized: view
+      silver_employee_thirty_plus:
+        +materialized: table
     gold:
       +materialized: table
 tests:
