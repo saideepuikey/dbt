@@ -4,3 +4,6 @@ dbt_tutorial:
     dev:
       type: duckdb
       path: '../data/nyc_parking_violations.db'
+    prod:
+      type: duckdb
+      path: '../data/prod_nyc_parking_violations.db'

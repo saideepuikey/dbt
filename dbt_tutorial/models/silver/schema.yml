@@ -108,3 +108,13 @@ models:
         description: '{{ doc("vehicle_color") }}'
       - name: vehicle_year
         description: '{{ doc("vehicle_year") }}'
+
+  - name: silver_employee_thirty_plus
+    description: Stores employee information who are thirty plus in age
+    columns:
+      - name: id
+        description: Stores employee information
+      - name: emp_name
+        description: Stores employee name
+      - name: age
+        description: Age of employee

@@ -16,3 +16,9 @@ models:
         description: '{{ doc("registration_state") }}'
       - name: ticket_count
         description: '{{ doc("ticket_count") }}'
+
+  - name: gold_employee_thirty_plus
+    description: Stores total thirty plus employee information
+    columns:
+      - name: total_thirty_plus_employee
+        description: Shows the count of total thirty plus employee
