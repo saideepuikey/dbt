@@ -5,7 +5,7 @@
 [0m12:55:39.887233 [info ] [MainThread]: Running with dbt=1.11.0-b3
 [0m12:55:39.887663 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'printer_width': '80', 'introspect': 'True', 'invocation_command': 'dbt init', 'fail_fast': 'False', 'warn_error': 'None', 'quiet': 'False', 'static_parser': 'True', 'target_path': 'None', 'indirect_selection': 'eager', 'write_json': 'True', 'use_colors': 'True', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'log_format': 'default', 'version_check': 'True', 'log_cache_events': 'False', 'no_print': 'None', 'empty': 'None', 'profiles_dir': '/Users/saideepuikey/.dbt', 'partial_parse': 'True'}
 [0m12:56:58.184760 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dbt/include/starter_project
-[0m12:56:58.195434 [info ] [MainThread]: 
+[0m12:56:58.195434 [info ] [MainThread]:
 Your new dbt project "dbt_tutorial" was created!
 
 For more information on how to configure the profiles.yml file,
@@ -195,7 +195,7 @@ Runtime Error
 Runtime Error
   No dbt_project.yml found at expected path /Users/saideepuikey/wmd-dwh/Practice/dbt/dbt/dbt_project.yml
   Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
-  
+
 [0m21:04:44.752146 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 0.03512871, "process_in_blocks": "0", "process_kernel_time": 0.093435, "process_mem_max_rss": "104873984", "process_out_blocks": "0", "process_user_time": 0.458455}
 [0m21:04:44.752323 [debug] [MainThread]: Command `dbt test` failed at 21:04:44.752291 after 0.04 seconds
 [0m21:04:44.752439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058f5490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058356a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10495d1f0>]}
