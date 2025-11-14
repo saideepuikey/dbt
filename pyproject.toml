@@ -9,4 +9,5 @@ dependencies = [
     "dbt-duckdb==1.9.6",
     "duckdb==1.4.1",
     "pandas>=2.3.3",
+    "sqlfluff>=3.5.0",
 ]
